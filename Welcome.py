@@ -1,5 +1,5 @@
 from time import sleep
-
+from TheGreatOutdoors import the_great_outdoors
 BANNER = r"""
 BBBB  III  GGGG     CCCC  AAA   SSSS  III N    N  OOO
 B   B  I  G        C     A   A S       I  N N  N O   O 
@@ -23,10 +23,14 @@ def main():
         reputation -= 1
     elif user_enter in disagree_list:
         print("hmmm")
-        sleep(3)
-        print("you stand infront of the casino")
+        sleep(1)
+        print("you stand in front of the casino")
+        sleep(1)
         print("A small breeze hits you")
+        sleep(1)
         print("it fills you with determination")
+        sleep(2)
+        the_great_outdoors()
     else:
         print("You were forced inside by a angry bald man dressed as santa")
 
