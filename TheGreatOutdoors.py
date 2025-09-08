@@ -1,3 +1,5 @@
+from time import sleep
+
 def the_great_outdoors():
     BANNER2 = r"""
                      █████████████████████████████████████████████████
@@ -10,10 +12,14 @@ def the_great_outdoors():
                     █  █   █   █   █   █   █   █   █   █   █   █   █  █
                     █  █   █   █   █   █   █   █   █   █   █   █   █  █
                     ███████████████████████████████████████████████████
-
                                        ( )
                                        /|\
                                        / \
 
     """
+    sleep(1)
+    print("")
+    look = input("Look Around: ")
+    sleep(2)
+    print("")
     print(BANNER2)
