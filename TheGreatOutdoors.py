@@ -22,4 +22,7 @@ def the_great_outdoors():
     look = input("Look Around: ")
     sleep(2)
     print("")
+    print("You look around")
+    # MAKE RANDOM ENCOUNTERS
+    print("You see ")
     print(BANNER2)
