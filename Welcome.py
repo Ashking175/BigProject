@@ -1,3 +1,4 @@
+import random
 from time import sleep
 from TheGreatOutdoors import the_great_outdoors
 BANNER = r"""
@@ -8,6 +9,7 @@ B   B  I  G   G    C     A   A      S  I  N   NN O   O
 BBBB  III  GGGG     CCCC A   A  SSSS  III N    N  OOO
 """
 
+num = random.randint(1, 3)
 agree_list = ["y", "sure", "yes", "oui", "idk", "yeah", "yea", "yh", "ofc", "defo"]
 disagree_list = ["n", "nah", "no", "non", "know", "nay", "never", "henri", "nope", "np", "ni", "mo", " o"]
 reputation = 0

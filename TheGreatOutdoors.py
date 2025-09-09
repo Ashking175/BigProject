@@ -17,6 +17,7 @@ def the_great_outdoors():
                                        / \
 
     """
+    print(BANNER2)
     sleep(1)
     print("")
     look = input("Look Around: ")
@@ -24,5 +25,5 @@ def the_great_outdoors():
     print("")
     print("You look around")
     # MAKE RANDOM ENCOUNTERS
-    print("You see ")
-    print(BANNER2)
+    print("You see... ")
+    sleep(1)
